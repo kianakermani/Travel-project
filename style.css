@@ -194,4 +194,19 @@ footer a:hover {
     width: 9em;
     height: 3em;
   }
+
+  footer {
+    padding: 40px 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+}
+
+@media (max-width: 1250px) {
+  footer {
+    padding: 40px 20px;
+  }
 }
