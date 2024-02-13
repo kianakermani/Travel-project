@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
-  margin-top: 0;
+  margin-top: 10px;
+  margin-bottom: 0;
   background-image: linear-gradient(
     to bottom,
     #11a3f0,
@@ -14,6 +15,16 @@ body {
 
 .container {
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+  max-width: 1200px;
   margin: 0 auto;
 }
 header {
@@ -114,6 +125,52 @@ button:hover::before {
 
 button:active {
   background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("bg3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  max-width: 1400px;
+  margin: 10px auto;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+footer a:hover {
+  color: #f441a5;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
