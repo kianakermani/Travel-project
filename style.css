@@ -1,6 +1,15 @@
 body {
   font-family: "Poppins", sans-serif;
   margin-top: 0;
+  background-image: linear-gradient(
+    to bottom,
+    #11a3f0,
+    #4c95ec,
+    #6f86e3,
+    #8b76d4,
+    #a164c0
+  );
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -8,13 +17,26 @@ body {
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
   padding: 200px 0;
+}
+
+.color {
+  background: linear-gradient(
+    to bottom,
+    #e0eff8,
+    #adbbcc,
+    #aab1cc,
+    #a9a2c5,
+    #b09fba
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 header h1 {
@@ -109,5 +131,10 @@ button:active {
 
   header h3 {
     font-size: 12px;
+  }
+
+  button {
+    width: 9em;
+    height: 3em;
   }
 }
