@@ -26,6 +26,47 @@ body {
 
 .img-responsive {
   max-width: 100%;
+  display: block;
+}
+
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.g3c {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #85539e;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #8b76d4;
+  cursor: pointer;
+}
+
+.card {
+  background: linear-gradient(to bottom, #faf6ff, #e7d8ff, #edd6fd);
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
 }
 
 .grid-2-columns {
@@ -36,6 +77,11 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+hr {
+  border-top: 3px dashed #8b76d4;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(bg.jpg);
@@ -159,6 +205,22 @@ main h3 {
   line-height: 1.5;
   color: #272044;
   margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
 }
 
 main p {
